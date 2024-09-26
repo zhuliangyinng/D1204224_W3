@@ -1,5 +1,5 @@
-a = (input("輸入矩形的長："))
-b = (input("輸入矩形的寬："))
+a = int(input("輸入矩形的長："))
+b = int(input("輸入矩形的寬："))
 m = (a * b)
 n = (a*2) + (b*2)
 print("面積：" + str(m)) 
